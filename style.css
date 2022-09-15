@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Poppins:ital,wght@0,400;0,500;0,600;1,400&family=Ubuntu:wght@500&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu ul {
+    display: flex;
+    list-style-type: none;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 45px;
+    width: 1160px;
+    height: 44px;
+    margin-left: 156px;
+    top: 42px;
+}
+
+
+.login {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: -50px;
+    top: 42px;
+}
+
+.menu ul li {
+    margin-left: 18px;
+    margin-right: 18px;
+}
+
+.menu ul li a {
+    color: white;
+}
+
+.btn_a {
+    display: flex;
+    margin-right: 124px;
+    background-color: #E02C6D;
+    padding: 5px 10px;
+}
+
+.container {
+    position: absolute;
+    width: 1348px;
+    height: 650px;
+    left: 0px;
+    top: 0px;
+}
+
+.header,
+.container,
+.top-bar {
+    background-color: #2D25A0;
+}
+
+h1 {
+    color: #FFFFFF;
+    position: absolute;
+    width: 485px;
+    height: 230px;
+    left: 156px;
+    top: 207px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+}
+
+.image-banner {
+    position: absolute;
+    width: 556.01px;
+    height: 33px;
+    left: 700px;
+    top: 153px;
+    right: 140px;
+}
+
+.live-button {
+    color: white;
+    display: flex;
+    padding: 7px 24px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    width: 168px;
+    height: 44px;
+    left: 156px;
+    top: 500px;
+    background: #E02C6D;
+    word-spacing: 10px
+}
+
+.container-3 .box-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    margin-top: 747px;
+    margin-right: 210px;
+}
+
+.container-3 .box-container .box {
+    border-radius: 2px;
+    position: relative;
+    right: -80px;
+    border: 5px solid rgb(220, 223, 226);
+    padding: 0px 0px;
+    margin-left: 50px;
+    gap: 10px;
+}
+
+.container-3 .box-container .box img {
+    width: 300px;
+    height: 256px;
+}
+
+.last-section {
+    position: absolute;
+}
+
+.text- h1 {
+    width: 500px;
+    margin-left: -35px;
+    color: black;
+    font-size: 50px;
+
+}
+
+.images {
+    margin-left: 717px;
+    margin-top: -380px;
+}
+
+.p- {
+    margin-top: 400px;
+    margin-left: 125px;
+}
+
+.logo- {
+    display: flex;
+    margin-top: 700px;
+    margin-left: 430px;
+}
+
+.icons- {
+    margin-left: 631px;
+}
+
+.copy- {
+    margin-left: 600px;
+}
